@@ -1,0 +1,48 @@
+select option {
+  color: black!important;
+}
+
+select option[data-default] {
+  color: #888!important;
+}
+
+.post-title{
+    font-size:18px;
+}
+.post-info{
+    padding-bottom: 10px;
+}
+
+.post-author{
+    color:red;
+}
+
+.post-author > a{
+    color:red;
+}
+
+.parent_content{
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: .25em solid #dfe2e5;
+}
+
+.author-selector > div {
+    display:block!important
+}
+
+.post-title > a{
+    color:#333;
+}
+
+.post-box{
+    
+    padding: 10px 10px 10px;
+    margin: 5px 0px 5px;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+    border-radius: 4px 4px 0 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
