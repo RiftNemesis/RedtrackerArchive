@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.14.0a4-alpine
 COPY index/* /app/index/
 COPY static/* /app/static/
 COPY templates/* /app/templates/
